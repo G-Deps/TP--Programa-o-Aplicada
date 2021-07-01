@@ -57,7 +57,6 @@ void gravarLista(tLista* pLista,ofstream* outfile){ //função para gravar valor
   while(!finalLista(pLista)){
     int real = pLista->marcador->real;
     int imaginario = pLista->marcador->imaginario;
-    //*outfile << "Real" << " " << "Imaginario" << endl;
     cout<<"Parte real: "<< real <<" ,Parte imaginaria: "<<imaginario<<endl;
     *outfile << real << " " << imaginario << " "<< endl;
 
